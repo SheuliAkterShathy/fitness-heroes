@@ -17,25 +17,27 @@ const Card = ({card}) => {
         <div>
            <h3>Sheuli Akter Shathy</h3>
             <p>Cumilla,Bangladesh</p>
-            <div>
+            <div className='personal-info'>
                 <h5>Weight:60kg</h5>
                 <h5>Height:5.3In</h5>
-                <h5>Age:30 years</h5>
+                <h5>Age:30yr</h5>
 
             </div>
             <div>
                 <h4>Add a break</h4>
-                <div>
+                <div className='breakTime-btn'>
                     <button onClick={()=>addABreak(10)}>10s</button>
                     <button onClick={()=>addABreak(20)}>20s</button>
                     <button onClick={()=>addABreak(30)}>30s</button>
                     <button onClick={()=>addABreak(40)}>40s</button>
+                    <button onClick={()=>addABreak(50)}>50s</button>
                 </div>
             </div>
  
            <h4>Exercise Details</h4>
-           <p>Recuired time:{time}s</p>
-           <p>Break time:{breakTime}s</p>
+           <p className='required-time'>Recuired time:  {time}s</p>
+           <p className='break-time'>Break time: {breakTime}s</p>
+           <button className='activity-complited-btn'>Activity Completed</button>
         </div>
     );
 };
