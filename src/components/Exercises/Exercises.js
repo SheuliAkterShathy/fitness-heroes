@@ -4,12 +4,20 @@ import Exercise from '../Exercise/Exercise';
 import './Exercises.css'
 const Exercises = () => {
     const [exercises,setExercises]=useState([]);
+    const [card,setCard]=useState([]);
+
     useEffect( ()=>{
      fetch('data.json')
      .then(res=>res.json())
      .then(data=>setExercises(data))
     },[]);
 
+
+    const handleAddToCard = (exercise)=>{
+     
+        const newCard = [...card, exercise];
+        setCard(newCard)
+        }
     return (
         
        <div>
@@ -21,6 +29,7 @@ const Exercises = () => {
            {
             exercises.map(exercise=><Exercise
                  exercise={exercise}
+                 handleAddToCard={handleAddToCard}
                  key={exercise.id}></Exercise>)
            }
         </div>
@@ -42,7 +51,7 @@ const Exercises = () => {
                     <button>40s</button>
                 </div>
             </div> */}
-            <Card></Card>
+            <Card card={card}></Card>
         </div>
         </div>
        </div>
