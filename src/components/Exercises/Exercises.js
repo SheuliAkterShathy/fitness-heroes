@@ -13,6 +13,7 @@ const Exercises = () => {
 
         <div className='home-container'>
             <div className='exercises-container'>
+
            {
             exercises.map(exercise=><Exercise
                  exercise={exercise}
@@ -20,6 +21,7 @@ const Exercises = () => {
            }
         </div>
         <div className="card-container">
+            <h3>ghhhhhhhhhhhhj</h3>
             <p>jhjk</p>
         </div>
         </div>
