@@ -1,5 +1,10 @@
-
+.exercise{
+    border: 1px solid ;
+    height: 400px;
+    width: 260px;
+}
 .exercise img{
     width: 250px;
     height: 200px;
+    margin: 5px;
 }
