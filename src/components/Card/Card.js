@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './Card.css'
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Card = ({card}) => {
     
     let time=0;
@@ -13,6 +16,7 @@ const Card = ({card}) => {
 
     setBreakTime(time)
     }
+    const activityCompleted = () => toast("Congrats!  Activity completed");
     return (
         <div>
            <h3>Sheuli Akter Shathy</h3>
@@ -37,7 +41,7 @@ const Card = ({card}) => {
            <h4>Exercise Details</h4>
            <p className='required-time'>Recuired time:  {time}s</p>
            <p className='break-time'>Break time: {breakTime}s</p>
-           <button className='activity-complited-btn'>Activity Completed</button>
+           <button className='activity-complited-btn' onClick={activityCompleted}>Activity Completed</button><ToastContainer />
         </div>
     );
 };
