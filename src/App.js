@@ -1,13 +1,13 @@
 
 import './App.css';
 import Exercises from './components/Exercises/Exercises';
+import Questions from './components/Questions/Questions';
 
 function App() {
   return (
     <div className="App">
-      <img src="https://www.shutterstock.com/image-vector/gym-logo-fitness-511773892" alt="" />
-     {/* <h1>FITNESS-HEROES</h1> */}
-     <Exercises></Exercises>
+    <Exercises></Exercises>
+    <Questions></Questions>
     </div>
   );
 }
