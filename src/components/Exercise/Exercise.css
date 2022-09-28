@@ -2,9 +2,21 @@
     border: 1px solid ;
     height: 400px;
     width: 260px;
+    position: relative;
 }
 .exercise img{
     width: 250px;
     height: 200px;
     margin: 5px;
+}
+.btn-exercise{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    background-color: lightblue;
+    border: none;
+}
+.btn-exercise:hover{
+    background-color: rgb(83, 164, 191);
 }
