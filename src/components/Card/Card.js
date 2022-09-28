@@ -29,7 +29,7 @@ const Card = ({card}) => {
                     <button onClick={()=>addABreak(10)}>10s</button>
                     <button onClick={()=>addABreak(20)}>20s</button>
                     <button onClick={()=>addABreak(30)}>30s</button>
-                    <button onClick={()=>addABreak(40)}>40</button>
+                    <button onClick={()=>addABreak(40)}>40s</button>
                 </div>
             </div>
  

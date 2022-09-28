@@ -10,6 +10,14 @@
     grid-template-columns: repeat(3,1fr);
     gap:20px;
 }
+.title{
+    display: flex;
+    margin-left: 40px;
+    color: rgb(22, 98, 174);
+}
+.title img{
+   width: 80px;
+}
 @media screen and (max-width:600px){
     .home-container{
         display: flex;

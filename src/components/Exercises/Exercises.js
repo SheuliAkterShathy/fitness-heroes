@@ -21,8 +21,10 @@ const Exercises = () => {
     return (
         
        <div>
-        <img src="https://www.shutterstock.com/image-vector/gym-logo-fitness-511773892" alt="" />
+       <div className='title'>
+       <img src="https://previews.123rf.com/images/vectorgalaxy/vectorgalaxy1805/vectorgalaxy180500457/101156842-gym-logo-png-isolated-on-white-background-for-your-web-and-mobile-app-design-colorful-vector-icon-br.jpg" alt="" />
         <h1>FITNESS-HEROES</h1>
+       </div>
          <div className='home-container'>
             <div className='exercises-container'>
 
