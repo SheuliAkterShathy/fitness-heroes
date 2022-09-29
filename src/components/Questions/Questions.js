@@ -13,11 +13,14 @@ const Questions = () => {
 
             <div>
             <h3>2.What are the other uses of useEffect without fetching data?</h3>
-               <p>Ans:The motivation behind the introduction of useEffect Hook is to eliminate the side-effects of using class-based components.Without  fetching data from API, UseEffect is used many purposes.Such as:- 
+               <p>Ans:The motivation behind the introduction of useEffect Hook is
+               to eliminate the side-effects of using class-based components.
+               Without  fetching data from API, UseEffect is used many purposes.
+               Such as:- 
                1.Add an event listener for a button.
                2.Perform an action when state or props change.
                3.Clean up event listeners when the component unmounts.
-               4.Directly update the Dom.  
+               4.Directly update the Dom etc. 
                </p>
             </div>
 

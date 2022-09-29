@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Card.css'
 
 import { ToastContainer, toast } from 'react-toastify';
@@ -13,10 +13,15 @@ const Card = ({card}) => {
     const [breakTime,setBreakTime]=useState(0);
 
     const addABreak=(time)=>{
-
-    setBreakTime(time)
+         localStorage.setItem("breaktime",JSON.stringify(time))
+        setBreakTime(time)
     }
-    const activityCompleted = () => toast("Congrats!  Activity completed");
+        useEffect(()=>{
+            const localStorageData= localStorage.getItem("breaktime",JSON.stringify(time))
+            setBreakTime(localStorageData)
+        },[time]);
+
+    const activityCompleted = () => toast("Congrats!! Activity completed");
     return (
         <div>
            <h3>Sheuli Akter Shathy</h3>
@@ -35,6 +40,7 @@ const Card = ({card}) => {
                     <button onClick={()=>addABreak(30)}>30s</button>
                     <button onClick={()=>addABreak(40)}>40s</button>
                     <button onClick={()=>addABreak(50)}>50s</button>
+
                 </div>
             </div>
  

@@ -20,3 +20,16 @@
 .btn-exercise:hover{
     background-color: rgb(83, 164, 191);
 }
+/* @media screen and (max-width:600px) {
+    .exercise{
+        border: 1px solid ;
+        height: 400px;
+        width: 210px;
+        position: relative;
+    }
+    .exercise img{
+        width: 200px;
+        height: 200px;
+        margin: 0px;
+    }
+} */
