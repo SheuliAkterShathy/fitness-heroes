@@ -13,14 +13,16 @@ const Card = ({card}) => {
     const [breakTime,setBreakTime]=useState(0);
    
     const addABreak=(time)=>{
-         localStorage.setItem("breaktime",JSON.stringify(time))
+         localStorage.setItem("breaktime",time)
         setBreakTime(time)
     }
      
         useEffect(()=>{
-            const localStorageData= localStorage.getItem("breaktime",JSON.parse(time))
+            const localStorageData= localStorage.getItem("breaktime")
+           if(localStorageData){
             setBreakTime(localStorageData)
-        },[time]);
+           }
+        },[]);
 
     const activityCompleted = () => toast("Congrats!! Activity completed");
 
@@ -48,8 +50,8 @@ const Card = ({card}) => {
             </div>
  
            <h4>Exercise Details</h4>
-           <p className='required-time'>Recuired time:  {time}s</p>
-           <p className='break-time'>Break time: {breakTime}s</p>
+           <p className='required-time'>Recuired time:  {time}seconds</p>
+           <p className='break-time'>Break time: {breakTime}seconds</p>
            <button className='activity-complited-btn' onClick={activityCompleted}>Activity Completed</button><ToastContainer />
         </div>
     );
