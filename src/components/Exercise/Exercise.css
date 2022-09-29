@@ -1,13 +1,18 @@
 .exercise{
     border: 1px solid ;
-    height: 400px;
+    height: 450px;
     width: 260px;
     position: relative;
+    border-radius: 5px;
 }
 .exercise img{
     width: 250px;
     height: 200px;
     margin: 5px;
+    border-radius: 5px;
+}
+.exercise-info{
+    margin: 0px 8px;
 }
 .btn-exercise{
     width: 100%;
@@ -16,20 +21,8 @@
     height: 40px;
     background-color: lightblue;
     border: none;
+    border-radius: 0px 0px 5px 5px;
 }
 .btn-exercise:hover{
     background-color: rgb(83, 164, 191);
 }
-/* @media screen and (max-width:600px) {
-    .exercise{
-        border: 1px solid ;
-        height: 400px;
-        width: 210px;
-        position: relative;
-    }
-    .exercise img{
-        width: 200px;
-        height: 200px;
-        margin: 0px;
-    }
-} */

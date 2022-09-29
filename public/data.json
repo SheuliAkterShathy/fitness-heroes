@@ -2,38 +2,44 @@
     {
       "id": "633459f4b211da6a574736f8",
       "picture": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80",
-      "time": 33,
-      "name": "Mediating"
+      "time": 35,
+      "name": "Dumbbell",
+      "details":"Free weights are used for bodybuilding and can withstand the rigors of heavy usage."
     },
     {
       "id": "633459f4a02b8ad81663ec77",
       "picture": "https://images.unsplash.com/photo-1661678730729-55e2856a8e76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZXhlcmNpc2VzfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60",
-      "time": 29,
-      "name": "Push"
+      "time": 30,
+      "name": "Push",
+      "details":"Free weights are used for bodybuilding and can withstand the rigors of heavy usage."
     },
     {
       "id": "633459f4e28bd5892003936f",
       "picture": "https://images.unsplash.com/photo-1592981004873-51d6ebadf5e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "time": 26,
-      "name": "Mediate"
+      "time": 110,
+      "name": "Mediate",
+      "details":"Free weights are used for bodybuilding and can withstand the rigors of heavy usage."
     },
     {
       "id": "633459f4ca24b82c0a49debf",
-      "picture": "https://images.unsplash.com/photo-1521805103424-d8f8430e8933?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      "time": 40,
-      "name": "Eileen Rowland"
+      "picture": "https://images.unsplash.com/photo-1652364653960-1c23c208ef43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "time": 100,
+      "name": "Traidmill",
+      "details":"Free weights are used for bodybuilding and can withstand the rigors of heavy usage."
     },
     {
       "id": "633459f4acb478feb7f29e2e",
       "picture": "https://images.unsplash.com/photo-1661678730712-13b11a07ec5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80",
-      "time": 26,
-      "name": "Athletic"
+      "time": 50,
+      "name": "Athletic",
+      "details":"Free weights are used for bodybuilding and can withstand the rigors of heavy usage."
     },
     {
       "id": "633459f4a96e024538d0ecfa",
-      "picture": "https://images.unsplash.com/photo-1652364690376-db27a1965bc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "time": 38,
-      "name": "Baxter Collins"
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4j_HmQjUNwpz5vF7e1FuT7z6k6JtkKaHxoQ&usqp=CAU",
+      "time": 40,
+      "name": "Leg Extentions",
+      "details":"Free weights are used for bodybuilding and can withstand the rigors of heavy usage."
     }
   
    

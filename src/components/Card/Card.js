@@ -11,25 +11,28 @@ const Card = ({card}) => {
     }
 
     const [breakTime,setBreakTime]=useState(0);
-
+   
     const addABreak=(time)=>{
          localStorage.setItem("breaktime",JSON.stringify(time))
         setBreakTime(time)
     }
+     
         useEffect(()=>{
-            const localStorageData= localStorage.getItem("breaktime",JSON.stringify(time))
+            const localStorageData= localStorage.getItem("breaktime",JSON.parse(time))
             setBreakTime(localStorageData)
         },[time]);
 
     const activityCompleted = () => toast("Congrats!! Activity completed");
+
     return (
         <div>
            <h3>Sheuli Akter Shathy</h3>
+           <h5>Junior Web Developer</h5>
             <p>Cumilla,Bangladesh</p>
             <div className='personal-info'>
-                <h5>Weight:60kg</h5>
-                <h5>Height:5.3In</h5>
-                <h5>Age:30yr</h5>
+                <h5>Weight: 60kg</h5>
+                <h5>Height: 5.3In</h5>
+                <h5>Age: 30yr</h5>
 
             </div>
             <div>
